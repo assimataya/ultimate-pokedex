@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7823491b.css",
+    "main.js": "/static/js/main.b6266af5.js",
+    "static/js/787.ecb68812.chunk.js": "/static/js/787.ecb68812.chunk.js",
+    "static/media/Background.webp": "/static/media/Background.4c6f96718065b170209b.webp",
+    "static/media/Pokemon Solid.woff": "/static/media/Pokemon Solid.d0e51124e01b49821fe2.woff",
+    "index.html": "/index.html",
+    "main.7823491b.css.map": "/static/css/main.7823491b.css.map",
+    "main.b6266af5.js.map": "/static/js/main.b6266af5.js.map",
+    "787.ecb68812.chunk.js.map": "/static/js/787.ecb68812.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7823491b.css",
+    "static/js/main.b6266af5.js"
+  ]
+}
