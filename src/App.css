@@ -1,38 +1,34 @@
-.App {
+@font-face {
+  font-family: "Pokemon Solid";
+  src: local("Pokemon Solid"),
+    url("./assets/fonts/Pokemon\ Solid.woff") format("woff");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: url("./assets/images/Background.webp") no-repeat center center
+    fixed;
+  background-size: cover;
   text-align: center;
+  overflow-y: hidden;
+}
+.app-title {
+  font-family: "Pokemon Solid";
+  color: yellow;
+  -webkit-text-stroke: 3px rgb(1, 41, 218);
+  font-size: 4rem;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+@media screen and (max-width: 500px) {
+  .app-title {
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px rgb(1, 41, 218);
   }
 }

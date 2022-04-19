@@ -1,0 +1,9 @@
+.scroll {
+  overflow-y: scroll;
+  border: 15px ridge grey;
+  height: 70vh;
+  width: 75vw;
+  margin: 0 auto;
+  background: rgba(160,160,160,0.6);
+  border-radius: 25px;
+}
